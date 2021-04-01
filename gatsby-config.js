@@ -3,13 +3,13 @@ module.exports = {
     title: "gymnastics-network",
   },
   plugins: [
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        accessToken: "",
-        spaceId: "",
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-contentful",
+    //   options: {
+    //     accessToken: "",
+    //     spaceId: "",
+    //   },
+    // },
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
@@ -17,11 +17,13 @@ module.exports = {
     "gatsby-plugin-smoothscroll",
     "gatsby-image",
     "gatsby-transformer-remark",
+    "gatsby-plugin-image",
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: `${__dirname}/src/data/images`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
   ],
