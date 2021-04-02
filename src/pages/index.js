@@ -39,9 +39,12 @@ const IndexPage = () => {
           <div className="section-wrapper">
             <div className="form-container">
               <div>
-                <h3>Join Our Journey to Push Black Tech Forward</h3>
+                <h3>Join Our Journey to Push Gymnastics forward</h3>
                 <p>
-                  Stay up to date on our latest content and valuable resourcess.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  assumenda iusto, eaque voluptatem nihil repellendus unde
+                  blanditiis eius aliquid dolores fuga est dolorum aut tempora
+                  distinctio. Cupiditate ex molestias consequatur.
                 </p>
               </div>
               <form className="form">
