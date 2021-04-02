@@ -55,11 +55,11 @@ const Hero = () => {
       />
 
       <div className="title">
-        <h3>Creating new opportunities for the sport fo gymnastics.</h3>
+        <h3>Creating new opportunities for the sport of Gymnastics.</h3>
       </div>
       <div
         className="scroll"
-        onClick={() => scrollTo("#about")}
+        onClick={() => scrollTo("#connect")}
         role="button"
         aria-pressed="false"
       ></div>

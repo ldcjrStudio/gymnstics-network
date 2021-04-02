@@ -1,17 +1,15 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 // import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-bar">
-        <Link to="https://ldcjr.dev/about">
-          The Gymnastics Network &copy; All Rights Reserved
-        </Link>
+        <p>The Gymnastics Network &copy; All Rights Reserved</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

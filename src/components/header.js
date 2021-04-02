@@ -57,43 +57,7 @@ const Header = () => {
             boxShadow: open ? "-5px 0px 10px #151515" : "none",
             transform: open ? "translatex(0)" : "translatex(100%)",
           }}
-        >
-          <Link to="/" activeClassName="active">
-            Work
-          </Link>
-
-          <Link to="/about/" activeClassName="active">
-            About
-          </Link>
-          <Link to="/blog/" activeClassName="active">
-            Blog
-          </Link>
-          {/* <OutboundLink
-            rel="preconnect"
-            href="https://personal-things.s3.amazonaws.com/LeroyClarkeJrResume.pdf"
-            // activeClassName="active"
-          >
-            Resume
-          </OutboundLink> */}
-
-          {/* <div className="socials">
-            <p>Connect with me</p>
-            <div className="social-icons">
-              <Link to="https://github.com/ldcjrStudio">
-                <img src={github} alt="Github Logo" />
-              </Link>
-              <Link to="https://www.linkedin.com/in/leroy-clarke-jr/">
-                <img src={linkedin} alt="LinkedIn Logo" />
-              </Link>
-            </div>
-          </div> */}
-          <div className="email">
-            <p>Or drop me an email </p>
-            <a href="mailto:hello@ldcjr.dev" className="mailto">
-              hello@ldcjr.dev
-            </a>
-          </div>
-        </nav>
+        ></nav>
       </div>
     </header>
   );

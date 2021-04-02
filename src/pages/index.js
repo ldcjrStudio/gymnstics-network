@@ -39,7 +39,7 @@ const IndexPage = () => {
           <div className="section-wrapper">
             <div className="form-container">
               <div>
-                <h3>Join Our Journey to Push Gymnastics forward</h3>
+                <h3>Help push gymnastics forward</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
                   assumenda iusto, eaque voluptatem nihil repellendus unde
@@ -48,7 +48,7 @@ const IndexPage = () => {
                 </p>
               </div>
               <form className="form">
-                <label class="name-label" htmlFor="name">
+                <label className="name-label" htmlFor="name">
                   First Name
                 </label>
                 <TextField id="name" label="John Doe" variant="filled" />
